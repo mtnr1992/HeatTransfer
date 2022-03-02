@@ -1,0 +1,48 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[ExitFunc]
+Class="Function"
+Prototype="int ExitFunc(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[MaterialRing]
+Class="Function"
+Prototype="int MaterialRing(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[StartStop]
+Class="Function"
+Prototype="int StartStop(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Time]
+Class="Function"
+Prototype="int Time(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SlideTempLeft]
+Class="Function"
+Prototype="int SlideTempLeft(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SlideTempRight]
+Class="Function"
+Prototype="int SlideTempRight(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ExitFunc2]
+Class="Function"
+Prototype="int ExitFunc2(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Help]
+Class="Function"
+Prototype="int Help(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OpenPanel]
+Class="Function"
+Prototype="int OpenPanel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[GraphCtrl]
+Class="Function"
+Prototype="int GraphCtrl(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[GraphCursor]
+Class="Function"
+Prototype="int GraphCursor(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
